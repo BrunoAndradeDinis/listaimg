@@ -1,0 +1,57 @@
+html {
+    font-size: 62.5%;
+    max-width: 1440px;
+}
+
+body {
+    font-family: 'Public sans', sans-serif;
+    color: aliceblue;
+}
+
+.lista {
+    display: flex;
+}
+
+.pintura {
+    display: flex;
+    width: 335px;
+    height: 430px;
+    margin: 12.8rem 1rem ;
+}
+
+.pintura.rome{
+    background-image: url(../images/rome.png);
+}
+.pintura.boat{
+    background-image: url(../images/boat.png);
+}
+.pintura.sand{
+    background-image: url(../images/sand-and-sea.png);
+}
+.pintura.starry{
+    background-image: url(../images/starry-night.png);
+}
+
+.pintura {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.pintura h2, .pintura p {
+    margin-left: 2rem;
+}
+
+.pintura h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.pintura p {
+    font-weight: 300;
+    font-size: 1.7rem;
+    margin-bottom: 4.3rem;
+}
+

@@ -1,0 +1,16 @@
+@media (max-width: 700px) {
+    .lista {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 4.5rem 2rem;
+    }
+    .pintura {
+        margin: 0;
+        border-radius: 0;
+    }
+    .pintura p {
+        margin-bottom: 1.5rem;
+    }
+    
+}
