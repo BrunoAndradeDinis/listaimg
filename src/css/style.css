@@ -10,6 +10,7 @@ body {
 
 .lista {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .pintura {
